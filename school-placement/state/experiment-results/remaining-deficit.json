@@ -1,0 +1,77 @@
+{
+  "А": {
+    "blocks_with_deficit": 2875,
+    "largest": [
+      {
+        "id": 9736,
+        "deficit": 605
+      },
+      {
+        "id": 6688,
+        "deficit": 514
+      },
+      {
+        "id": 9345,
+        "deficit": 502
+      },
+      {
+        "id": 477,
+        "deficit": 473
+      },
+      {
+        "id": 2085,
+        "deficit": 436
+      }
+    ]
+  },
+  "Б": {
+    "blocks_with_deficit": 2875,
+    "largest": [
+      {
+        "id": 9345,
+        "deficit": 1102
+      },
+      {
+        "id": 6688,
+        "deficit": 514
+      },
+      {
+        "id": 2085,
+        "deficit": 436
+      },
+      {
+        "id": 58,
+        "deficit": 423
+      },
+      {
+        "id": 11000,
+        "deficit": 385
+      }
+    ]
+  },
+  "В": {
+    "blocks_with_deficit": 2871,
+    "largest": [
+      {
+        "id": 9345,
+        "deficit": 1102
+      },
+      {
+        "id": 9736,
+        "deficit": 605
+      },
+      {
+        "id": 6688,
+        "deficit": 514
+      },
+      {
+        "id": 477,
+        "deficit": 473
+      },
+      {
+        "id": 2085,
+        "deficit": 436
+      }
+    ]
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "kind": "TEST_ONLY_NOT_FULL_SEARCH_NOT_USER_CHOICES",
+  "info": {
+    "count": 12805,
+    "population": 1197166.0,
+    "version": "1.0.0a9",
+    "norm": 120,
+    "accessibility": 15,
+    "seconds": 0.43100060004508123,
+    "reference_seconds": 3.7267198999761604,
+    "max_deltas": {
+      "demand": 0.0,
+      "capacity": 0.0,
+      "demand_left": 0.0,
+      "demand_within": 0.0,
+      "demand_without": 0.0,
+      "capacity_left": 0.0,
+      "capacity_within": 0.0,
+      "capacity_without": 0.0,
+      "provision_strong": 1.1102230246251565e-16,
+      "provision_weak": 1.1102230246251565e-16
+    },
+    "fingerprint": "40be9ac1cd0ef63d9ee985d8baa0a83ffe66b6bb4a880fedc080b81c387f87e7",
+    "source": "C:\\Users\\souhu\\OneDrive\\Документы\\ChatGPT\\ITMO AI 2\\population-repair\\python-package-boilerplate-updated\\examples\\data_tyumen\\refined",
+    "tolerance": 1e-07,
+    "method": "blocksnet-1.0.0a9-array-cbc-v2",
+    "source_hashes": {
+      "buildings_blocks.geojson": "d8aaaefaf9fcbee26d117ecf6691ec2c75eba1182e01cb1f3d0a866e9bc8ee59",
+      "schools_blocks.geojson": "aad4f2cb60aa06e59e13284feddad90611eedc16fdb6334b4f5f05f1cec1daaa",
+      "blocks_refined.geojson": "0474ca75fa11141649b1487fc896968ad3b5ab3184632b015d96e0526b938263",
+      "accessibility_matrix.parquet": "1f4262bf8b13295adc8d0331f6a7117956eb49666055d6869467608ab6f5ee8d",
+      "provision_schools.csv": "2329b762282763ed87c813a7522e142178f6bf60ac6b70bd076b4ff9819fbaef",
+      "schools.geojson": "4e807b6dcbb6a43596797cdad6ed180231375562e80e94a430be9c71b1e47d8f",
+      "tyumen_schools_82.csv": "e82b26c871c0cd5b149354e2cc232c5b9ac7cd69d0da5fd4d1ad41c5abc2932b",
+      "population_repair_report.json": "b8458fa950cfbbdf085432a98b04c720274eb35b56abc832a92142940006dec3"
+    },
+    "population_inference": {
+      "osm_residential": 22116,
+      "unresolved": 13993,
+      "inferred_private_address": 8815,
+      "non_residential": 6673,
+      "inferred_private_context": 4370,
+      "inferred_multistorey": 746,
+      "osm_flats": 1
+    },
+    "population_unresolved_blocks": 1507,
+    "school_count": 82,
+    "school_source": "tyumen_schools_82.csv",
+    "capacity_note": "Оценочная вместимость; разные методы из CSV, не единый реестр проектных мощностей",
+    "benchmark": null
+  },
+  "cases": [
+    {
+      "name": "zero",
+      "plan": [],
+      "deficit": 54209.0,
+      "max_delta": 0.0,
+      "identical_mps": true,
+      "mps_sha256": "23d297281253d770bc52c1f586204a8beb74229605493975a1e7ac721777a442"
+    },
+    {
+      "name": "restored-multistorey",
+      "plan": [
+        {
+          "id": 645,
+          "capacity": 600
+        }
+      ],
+      "deficit": 53609.0,
+      "max_delta": 0.0,
+      "identical_mps": true,
+      "mps_sha256": "f5bb941ea53bfaa9b64c26049bd1ac737b4a0ed7f4fe37fd4124ac992a1da647"
+    },
+    {
+      "name": "existing-school",
+      "plan": [
+        {
+          "id": 9,
+          "capacity": 300
+        }
+      ],
+      "deficit": 54159.0,
+      "max_delta": 0.0,
+      "identical_mps": true,
+      "mps_sha256": "84ae8ec449c46ef80b9e214216532196c48f8d944db5b3c08eb9792f38e2a945"
+    },
+    {
+      "name": "last-block",
+      "plan": [
+        {
+          "id": 12804,
+          "capacity": 600
+        }
+      ],
+      "deficit": 54209.0,
+      "max_delta": 0.0,
+      "identical_mps": true,
+      "mps_sha256": "4076231e83edf3ef13ed4298364b33c9a36a15a54b93c4b9e985dc373c4c9538"
+    },
+    {
+      "name": "two-schools",
+      "plan": [
+        {
+          "id": 9345,
+          "capacity": 300
+        },
+        {
+          "id": 6384,
+          "capacity": 300
+        }
+      ],
+      "deficit": 53609.0,
+      "max_delta": 0.0,
+      "identical_mps": true,
+      "mps_sha256": "d7986c6d25f82c1c8b73003973385c4421a0e7f83b1eaee8786e017a614e71bc"
+    },
+    {
+      "name": "one-seat",
+      "plan": [
+        {
+          "id": 2,
+          "capacity": 1
+        }
+      ],
+      "deficit": 54208.0,
+      "max_delta": 0.0,
+      "identical_mps": true,
+      "mps_sha256": "db987ac4fb46301c3894b659bfb7f7b35c23134ec898f354244ea62086960015"
+    }
+  ],
+  "per_block_all_columns": true,
+  "independence": true,
+  "immutable": true,
+  "ties": true,
+  "housing_checks": true
+}

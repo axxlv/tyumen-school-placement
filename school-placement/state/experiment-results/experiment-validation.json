@@ -1,0 +1,249 @@
+{
+  "fingerprint": "40be9ac1cd0ef63d9ee985d8baa0a83ffe66b6bb4a880fedc080b81c387f87e7",
+  "search_job": "789f686a6dea47a9b818656dd7d48c91",
+  "exhaustive": true,
+  "processed": 12805,
+  "errors": 0,
+  "best_count": 2877,
+  "representative_block": 41,
+  "selection_rule": "Smallest block ID among all equal best; does not imply unique optimum",
+  "manual_reproduction_verified": true,
+  "reference_per_block_verified": true,
+  "ab_recorded_before_search": true,
+  "manual_job": "7fc1eaba83bf41bf8854a0700b5b14b4",
+  "best_reduction": 600.0,
+  "best_deficit": 53609.0,
+  "experiments": [
+    {
+      "label": "А",
+      "plan": [
+        {
+          "id": 9345,
+          "capacity": 600
+        }
+      ],
+      "reason": "Выбор подтверждён пользователем в чате до автоматического поиска. Квартал № 9345: плотная многоэтажная жилая застройка у улиц Федюнинского, Павла Шарова и Александра Митинского; модельное население 9183, текущий дефицит 1102 места, собственная вместимость школ 0. Проверяется сосредоточение 600 новых мест в одном крупном очаге дефицита. Оценка населения содержит неопределённость назначения части зданий.",
+      "created": 1794856055.1581454,
+      "fingerprint": "40be9ac1cd0ef63d9ee985d8baa0a83ffe66b6bb4a880fedc080b81c387f87e7",
+      "compatible": true
+    },
+    {
+      "label": "Б",
+      "plan": [
+        {
+          "id": 9736,
+          "capacity": 300
+        },
+        {
+          "id": 477,
+          "capacity": 300
+        }
+      ],
+      "reason": "Выбор подтверждён пользователем в чате до автоматического поиска. Две разнесённые территории: № 9736 у улицы Тимофея Кармацкого (модельное население 5036, дефицит 605 мест) и № 477 у улиц Ивана Словцова, Таллинской и 30 лет Победы (3939 жителей, дефицит 473 места). В обоих кварталах собственная вместимость школ 0. Проверяется распределение одинакового суммарного прироста 600 мест между северной и юго-восточной территориями. Для № 477 сохраняется неопределённость назначения части зданий.",
+      "created": 1794856055.1699724,
+      "fingerprint": "40be9ac1cd0ef63d9ee985d8baa0a83ffe66b6bb4a880fedc080b81c387f87e7",
+      "compatible": true
+    }
+  ],
+  "comparison": [
+    {
+      "scenario": "Исходное состояние",
+      "capacity": 106942.0,
+      "added": 0.0,
+      "deficit": 54209.0,
+      "reduction": 0.0,
+      "demand": 146028.0,
+      "improved_blocks": 0,
+      "worsened_blocks": 0
+    },
+    {
+      "scenario": "А",
+      "capacity": 107542.0,
+      "added": 600.0,
+      "deficit": 53609.0,
+      "reduction": 600.0,
+      "demand": 146028.0,
+      "improved_blocks": 1,
+      "worsened_blocks": 0
+    },
+    {
+      "scenario": "Б",
+      "capacity": 107542.0,
+      "added": 600.0,
+      "deficit": 53609.0,
+      "reduction": 600.0,
+      "demand": 146028.0,
+      "improved_blocks": 2,
+      "worsened_blocks": 0
+    },
+    {
+      "scenario": "В",
+      "capacity": 107542.0,
+      "added": 600.0,
+      "deficit": 53609.0,
+      "reduction": 600.0,
+      "demand": 146028.0,
+      "improved_blocks": 5,
+      "worsened_blocks": 0
+    }
+  ],
+  "changes": {
+    "А": {
+      "top_improvements": [
+        {
+          "id": 9345,
+          "population": 9183,
+          "base_capacity": 0,
+          "capacity": 600,
+          "demand": 1102,
+          "base_deficit": 1102,
+          "deficit": 502,
+          "reduction": 600,
+          "base_provision": 0.0,
+          "provision": 0.5444646098003629,
+          "population_status": "estimated_with_unresolved_buildings",
+          "population_unresolved": false,
+          "residential_buildings": 16.0,
+          "inferred_residential_buildings": 0.0,
+          "unresolved_buildings": 3.0
+        }
+      ],
+      "top_worsenings": []
+    },
+    "Б": {
+      "top_improvements": [
+        {
+          "id": 477,
+          "population": 3939,
+          "base_capacity": 0,
+          "capacity": 300,
+          "demand": 473,
+          "base_deficit": 473,
+          "deficit": 173,
+          "reduction": 300,
+          "base_provision": 0.0,
+          "provision": 0.6342494714587738,
+          "population_status": "estimated_with_unresolved_buildings",
+          "population_unresolved": false,
+          "residential_buildings": 13.0,
+          "inferred_residential_buildings": 0.0,
+          "unresolved_buildings": 12.0
+        },
+        {
+          "id": 9736,
+          "population": 5036,
+          "base_capacity": 0,
+          "capacity": 300,
+          "demand": 605,
+          "base_deficit": 605,
+          "deficit": 305,
+          "reduction": 300,
+          "base_provision": 0.0,
+          "provision": 0.49586776859504134,
+          "population_status": "estimated_from_osm_housing",
+          "population_unresolved": false,
+          "residential_buildings": 12.0,
+          "inferred_residential_buildings": 0.0,
+          "unresolved_buildings": 0.0
+        }
+      ],
+      "top_worsenings": []
+    },
+    "В": {
+      "top_improvements": [
+        {
+          "id": 10431,
+          "population": 1875,
+          "base_capacity": 0,
+          "capacity": 0,
+          "demand": 225,
+          "base_deficit": 225,
+          "deficit": 0,
+          "reduction": 225,
+          "base_provision": 0.0,
+          "provision": 1.0,
+          "population_status": "estimated_from_osm_housing",
+          "population_unresolved": false,
+          "residential_buildings": 2.0,
+          "inferred_residential_buildings": 0.0,
+          "unresolved_buildings": 0.0
+        },
+        {
+          "id": 11051,
+          "population": 1159,
+          "base_capacity": 0,
+          "capacity": 0,
+          "demand": 140,
+          "base_deficit": 140,
+          "deficit": 0,
+          "reduction": 140,
+          "base_provision": 0.0,
+          "provision": 1.0,
+          "population_status": "estimated_from_osm_housing",
+          "population_unresolved": false,
+          "residential_buildings": 2.0,
+          "inferred_residential_buildings": 0.0,
+          "unresolved_buildings": 0.0
+        },
+        {
+          "id": 10836,
+          "population": 1142,
+          "base_capacity": 0,
+          "capacity": 0,
+          "demand": 138,
+          "base_deficit": 138,
+          "deficit": 0,
+          "reduction": 138,
+          "base_provision": 0.0,
+          "provision": 1.0,
+          "population_status": "estimated_from_osm_housing",
+          "population_unresolved": false,
+          "residential_buildings": 2.0,
+          "inferred_residential_buildings": 0.0,
+          "unresolved_buildings": 0.0
+        },
+        {
+          "id": 10421,
+          "population": 1142,
+          "base_capacity": 0,
+          "capacity": 0,
+          "demand": 138,
+          "base_deficit": 138,
+          "deficit": 43,
+          "reduction": 95,
+          "base_provision": 0.0,
+          "provision": 0.6884057971014492,
+          "population_status": "estimated_from_osm_housing",
+          "population_unresolved": false,
+          "residential_buildings": 2.0,
+          "inferred_residential_buildings": 0.0,
+          "unresolved_buildings": 0.0
+        },
+        {
+          "id": 41,
+          "population": 10,
+          "base_capacity": 0,
+          "capacity": 600,
+          "demand": 2,
+          "base_deficit": 2,
+          "deficit": 0,
+          "reduction": 2,
+          "base_provision": 0.0,
+          "provision": 1.0,
+          "population_status": "estimated_with_housing_inference",
+          "population_unresolved": false,
+          "residential_buildings": 3.0,
+          "inferred_residential_buildings": 2.0,
+          "unresolved_buildings": 0.0
+        }
+      ],
+      "top_worsenings": []
+    }
+  },
+  "worker_calculation_seconds": 4500.784712703258,
+  "cached": 0,
+  "completed_at": 1794906144.6853495,
+  "browser_verified": true,
+  "browser_csv_all_fields_verified": true,
+  "maps_generated_and_visually_checked": true
+}

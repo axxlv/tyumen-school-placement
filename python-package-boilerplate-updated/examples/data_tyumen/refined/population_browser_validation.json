@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "app_points_loaded": 82,
+  "app_points_rendered": 82,
+  "dashboard_points": 82,
+  "dashboard_canvas_paths": 82,
+  "dashboard_points_in_view": 82,
+  "capacity": 106942,
+  "deficit": 54209,
+  "fingerprint": "40be9ac1cd0ef63d9ee985d8baa0a83ffe66b6bb4a880fedc080b81c387f87e7",
+  "population_total": 1197166,
+  "restored_block_645": 981,
+  "unknown_population_distinct": true,
+  "point_card": true,
+  "capacity_methods_visible": true,
+  "toggles": true,
+  "export_all_blocks": true,
+  "errors": []
+}

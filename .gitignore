@@ -1,0 +1,14 @@
+# Local environments, credentials and temporary files
+.venv*/
+**/.venv*/
+.env
+**/.env
+**/__pycache__/
+**/.ipynb_checkpoints/
+**/.backups/
+*.log
+**/*.sqlite*
+# Large runtime data is supplied separately with the full release archive
+**/accessibility_matrix.parquet
+**/accessibility_matrix.csv
+**/accessibility_matrix_parts/

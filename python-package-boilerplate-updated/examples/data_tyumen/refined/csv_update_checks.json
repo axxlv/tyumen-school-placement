@@ -1,0 +1,31 @@
+{
+  "csv_records": 82,
+  "capacity": 106942,
+  "demand": 119231,
+  "deficit": 40209,
+  "served": 79022,
+  "occupied_blocks": 80,
+  "import_tests": 5,
+  "application_tests": 8,
+  "equivalence_scenarios": 19,
+  "notebook_executed": true,
+  "browser": {
+    "passed": true,
+    "app_points_loaded": 82,
+    "app_points_rendered": 82,
+    "dashboard_points": 82,
+    "dashboard_canvas_paths": 82,
+    "dashboard_points_in_view": 82,
+    "capacity": 106942,
+    "deficit": 40209,
+    "fingerprint": "bc4b5bd3695edea5bd1b66b53cdd5ffd44d86fffd73a1ade6a22151cf4bd4eae",
+    "point_card": true,
+    "capacity_methods_visible": true,
+    "toggles": true,
+    "export_all_blocks": true,
+    "errors": []
+  },
+  "original_data_unchanged": true,
+  "non_school_input_hashes_unchanged": true,
+  "csv_sha256": "e82b26c871c0cd5b149354e2cc232c5b9ac7cd69d0da5fd4d1ad41c5abc2932b"
+}

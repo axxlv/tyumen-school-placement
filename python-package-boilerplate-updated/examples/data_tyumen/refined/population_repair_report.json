@@ -1,0 +1,130 @@
+{
+  "method_version": "housing-evidence-v1",
+  "classification_source_sha256": "48945261a161eae14426929e20cfe0dfe4a505f0b90caa6d5a1f37a6e041b77b",
+  "population_before": 980707,
+  "population_after": 1197166,
+  "building_population": 1197166,
+  "building_count": 56714,
+  "residential_before": 22036,
+  "residential_after": 36048,
+  "new_residential": 14012,
+  "new_by_method": {
+    "inferred_private_address": 8815,
+    "inferred_private_context": 4370,
+    "inferred_multistorey": 746,
+    "osm_residential": 80,
+    "osm_flats": 1
+  },
+  "classification_counts": {
+    "osm_residential": 22116,
+    "unresolved": 13993,
+    "inferred_private_address": 8815,
+    "non_residential": 6673,
+    "inferred_private_context": 4370,
+    "inferred_multistorey": 746,
+    "osm_flats": 1
+  },
+  "zero_blocks_before": 9592,
+  "zero_blocks_after": 8175,
+  "restored_zero_blocks": 1417,
+  "unresolved_zero_blocks": 1507,
+  "no_building_blocks": 5524,
+  "capacity": 106942,
+  "total_demand": 146028,
+  "total_deficit": 54209,
+  "served_within": 91819,
+  "fallback_assignments": [
+    {
+      "building_id": 65,
+      "block_id": 138,
+      "population": 1,
+      "method": "nearest_polygon_gap_le_5m",
+      "distance_m": 2.726812845202277
+    },
+    {
+      "building_id": 33612,
+      "block_id": 12626,
+      "population": 3,
+      "method": "nearest_polygon_gap_le_5m",
+      "distance_m": 0.0
+    },
+    {
+      "building_id": 37393,
+      "block_id": 1505,
+      "population": 7,
+      "method": "nearest_polygon_gap_le_5m",
+      "distance_m": 2.954955071888729
+    },
+    {
+      "building_id": 42242,
+      "block_id": 164,
+      "population": 11,
+      "method": "nearest_polygon_gap_le_5m",
+      "distance_m": 1.829708240527767
+    },
+    {
+      "building_id": 48170,
+      "block_id": 12296,
+      "population": 3,
+      "method": "nearest_polygon_gap_le_5m",
+      "distance_m": 0.0
+    },
+    {
+      "building_id": 48419,
+      "block_id": 11844,
+      "population": 1,
+      "method": "nearest_polygon_gap_le_5m",
+      "distance_m": 0.0
+    },
+    {
+      "building_id": 51113,
+      "block_id": 12590,
+      "population": 2,
+      "method": "nearest_polygon_gap_le_5m",
+      "distance_m": 0.0
+    },
+    {
+      "building_id": 53018,
+      "block_id": 12264,
+      "population": 1,
+      "method": "nearest_polygon_gap_le_5m",
+      "distance_m": 0.0
+    },
+    {
+      "building_id": 56333,
+      "block_id": 11901,
+      "population": 2,
+      "method": "nearest_polygon_gap_le_5m",
+      "distance_m": 0.0
+    }
+  ],
+  "unassigned_inhabited_buildings": [],
+  "frozen_input_hashes": {
+    "accessibility_matrix.parquet": "1f4262bf8b13295adc8d0331f6a7117956eb49666055d6869467608ab6f5ee8d",
+    "blocks_refined.geojson": "0474ca75fa11141649b1487fc896968ad3b5ab3184632b015d96e0526b938263",
+    "blocks_land_use.geojson": "3ff6ecabc20c80704300f13a7db0d644a1268876ee69f639ada1acb68bf29461",
+    "schools.geojson": "4e807b6dcbb6a43596797cdad6ed180231375562e80e94a430be9c71b1e47d8f",
+    "schools_blocks.geojson": "aad4f2cb60aa06e59e13284feddad90611eedc16fdb6334b4f5f05f1cec1daaa",
+    "tyumen_schools_82.csv": "e82b26c871c0cd5b149354e2cc232c5b9ac7cd69d0da5fd4d1ad41c5abc2932b",
+    "functional_zones.geojson": "c78173dd2c17e36f617852143547144c4cf894bfa39c66ba793e57f011dae88a",
+    "area_accessibility.csv": "e8e2bc76a9933a598bed1ce2900bad85a53f49c2c2dee94dbdca8481a1e531bf"
+  },
+  "private_inference_rules": "Address/size/shape plus residential context; context-only homes flagged low-confidence; smaller unaddressed outbuildings next to a larger house suppressed",
+  "population_formula": "floor(0.9 * build_floor_area / 30), minimum 1 for identified/inferred housing; not census data",
+  "warnings": [
+    "Inferred housing is an estimate, not verified occupancy.",
+    "Unknown-use buildings and areas without mapped buildings remain explicitly unresolved; model zero is not evidence of no residents.",
+    "Garden-house permanent occupancy is not verified; included as potential residential stock."
+  ],
+  "checks": {
+    "block_ids_unchanged": true,
+    "network_and_school_inputs_unchanged": true,
+    "capacity_82_unchanged": true,
+    "all_known_housing_population_preserved": true,
+    "no_blanket_yes_as_residential": true,
+    "private_housing_included": true,
+    "population_conserved": true,
+    "unresolved_flags_present": true,
+    "zero_blocks_reduced": true
+  }
+}

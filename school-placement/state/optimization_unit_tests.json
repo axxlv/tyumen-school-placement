@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "count": 8,
+  "seconds": 14.375,
+  "scope": "TESTING_NOT_FULL_SEARCH",
+  "legacy_migration": true,
+  "cache_isolation": true,
+  "full_control_loop_count": 12805
+}

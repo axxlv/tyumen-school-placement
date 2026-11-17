@@ -1,0 +1,3 @@
+﻿scenario;capacity;added;deficit;reduction;demand;improved_blocks;worsened_blocks;neighbour_net_reduction
+А*;108542.0;1600.0;52609.0;1600.0;146028.0;7;0;498
+Б*;108942.0;2000.0;52732.0;1477.0;146028.0;7;0;399

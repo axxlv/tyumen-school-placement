@@ -1,0 +1,308 @@
+{
+  "kind": "TEST_ONLY_NOT_FULL_SEARCH_NOT_USER_CHOICES",
+  "info": {
+    "count": 12805,
+    "population": 1197166.0,
+    "version": "1.0.0a9",
+    "norm": 120,
+    "accessibility": 15,
+    "seconds": 0.3044434000039473,
+    "reference_seconds": 3.513081200013403,
+    "max_deltas": {
+      "demand": 0.0,
+      "capacity": 0.0,
+      "demand_left": 0.0,
+      "demand_within": 0.0,
+      "demand_without": 0.0,
+      "capacity_left": 0.0,
+      "capacity_within": 0.0,
+      "capacity_without": 0.0,
+      "provision_strong": 1.1102230246251565e-16,
+      "provision_weak": 1.1102230246251565e-16
+    },
+    "fingerprint": "40be9ac1cd0ef63d9ee985d8baa0a83ffe66b6bb4a880fedc080b81c387f87e7",
+    "source": "D:\\Рабочий стол\\ITMO AI\\python-package-boilerplate-updated\\examples\\data_tyumen\\refined",
+    "tolerance": 1e-07,
+    "method": "blocksnet-1.0.0a9-array-cbc-v2",
+    "source_hashes": {
+      "buildings_blocks.geojson": "d8aaaefaf9fcbee26d117ecf6691ec2c75eba1182e01cb1f3d0a866e9bc8ee59",
+      "schools_blocks.geojson": "aad4f2cb60aa06e59e13284feddad90611eedc16fdb6334b4f5f05f1cec1daaa",
+      "blocks_refined.geojson": "0474ca75fa11141649b1487fc896968ad3b5ab3184632b015d96e0526b938263",
+      "accessibility_matrix.parquet": "1f4262bf8b13295adc8d0331f6a7117956eb49666055d6869467608ab6f5ee8d",
+      "provision_schools.csv": "2329b762282763ed87c813a7522e142178f6bf60ac6b70bd076b4ff9819fbaef",
+      "schools.geojson": "4e807b6dcbb6a43596797cdad6ed180231375562e80e94a430be9c71b1e47d8f",
+      "tyumen_schools_82.csv": "e82b26c871c0cd5b149354e2cc232c5b9ac7cd69d0da5fd4d1ad41c5abc2932b",
+      "population_repair_report.json": "b8458fa950cfbbdf085432a98b04c720274eb35b56abc832a92142940006dec3"
+    },
+    "population_inference": {
+      "osm_residential": 22116,
+      "unresolved": 13993,
+      "inferred_private_address": 8815,
+      "non_residential": 6673,
+      "inferred_private_context": 4370,
+      "inferred_multistorey": 746,
+      "osm_flats": 1
+    },
+    "population_unresolved_blocks": 1507,
+    "school_count": 82,
+    "school_source": "tyumen_schools_82.csv",
+    "capacity_note": "Оценочная вместимость; разные методы из CSV, не единый реестр проектных мощностей",
+    "benchmark": null
+  },
+  "cases": [
+    {
+      "name": "zero",
+      "plan": [],
+      "deficit": 54209.0,
+      "max_delta": 0.0,
+      "identical_mps": true,
+      "mps_sha256": "23d297281253d770bc52c1f586204a8beb74229605493975a1e7ac721777a442"
+    },
+    {
+      "name": "zero-population",
+      "plan": [
+        {
+          "id": 0,
+          "capacity": 600
+        }
+      ],
+      "deficit": 54180.0,
+      "max_delta": 0.0,
+      "identical_mps": true,
+      "mps_sha256": "77de2573a06eea4840ec7081eb1706e16e139eb49918e8a58593bdb05783237d"
+    },
+    {
+      "name": "max-population",
+      "plan": [
+        {
+          "id": 9345,
+          "capacity": 600
+        }
+      ],
+      "deficit": 53609.0,
+      "max_delta": 0.0,
+      "identical_mps": true,
+      "mps_sha256": "5e7492e1bebc3669ea4bdf4a31756631755c79221decd7562c0805646126ae04"
+    },
+    {
+      "name": "existing-school",
+      "plan": [
+        {
+          "id": 9,
+          "capacity": 600
+        }
+      ],
+      "deficit": 54159.0,
+      "max_delta": 0.0,
+      "identical_mps": true,
+      "mps_sha256": "13634faa5fd30cd1037ad4ebca727b7c100c6a0feea16725f351936fc1b672cd"
+    },
+    {
+      "name": "boundary-last",
+      "plan": [
+        {
+          "id": 12804,
+          "capacity": 600
+        }
+      ],
+      "deficit": 54209.0,
+      "max_delta": 0.0,
+      "identical_mps": true,
+      "mps_sha256": "4076231e83edf3ef13ed4298364b33c9a36a15a54b93c4b9e985dc373c4c9538"
+    },
+    {
+      "name": "one-seat",
+      "plan": [
+        {
+          "id": 2,
+          "capacity": 1
+        }
+      ],
+      "deficit": 54208.0,
+      "max_delta": 0.0,
+      "identical_mps": true,
+      "mps_sha256": "db987ac4fb46301c3894b659bfb7f7b35c23134ec898f354244ea62086960015"
+    },
+    {
+      "name": "300-seats",
+      "plan": [
+        {
+          "id": 9,
+          "capacity": 300
+        }
+      ],
+      "deficit": 54159.0,
+      "max_delta": 0.0,
+      "identical_mps": true,
+      "mps_sha256": "84ae8ec449c46ef80b9e214216532196c48f8d944db5b3c08eb9792f38e2a945"
+    },
+    {
+      "name": "1200-seats",
+      "plan": [
+        {
+          "id": 9345,
+          "capacity": 1200
+        }
+      ],
+      "deficit": 53009.0,
+      "max_delta": 0.0,
+      "identical_mps": true,
+      "mps_sha256": "0bbb4e44384c2a5f550656256e21256eeee4daddf4e5177a47b02cc9803da2cb"
+    },
+    {
+      "name": "large-self-supply",
+      "plan": [
+        {
+          "id": 9345,
+          "capacity": 2000
+        }
+      ],
+      "deficit": 52209.0,
+      "max_delta": 0.0,
+      "identical_mps": true,
+      "mps_sha256": "ece739a7035dbce64daf1cf71e38e3baa7054f484f0a4baec208842c6c475119"
+    },
+    {
+      "name": "duplicate-additions",
+      "plan": [
+        {
+          "id": 2,
+          "capacity": 300
+        },
+        {
+          "id": 2,
+          "capacity": 300
+        }
+      ],
+      "deficit": 54152.0,
+      "max_delta": 0.0,
+      "identical_mps": true,
+      "mps_sha256": "444c71ea2d64ecb48507e2d574af1693f17b31ce6a7330e735ae7a6d35bf5b8a"
+    },
+    {
+      "name": "two-different",
+      "plan": [
+        {
+          "id": 9,
+          "capacity": 300
+        },
+        {
+          "id": 9345,
+          "capacity": 300
+        }
+      ],
+      "deficit": 53859.0,
+      "max_delta": 0.0,
+      "identical_mps": true,
+      "mps_sha256": "cce909e32a3813ca992a41dbd566b2bb43acd398814ad05f6d6665704978551a"
+    },
+    {
+      "name": "random-5354",
+      "plan": [
+        {
+          "id": 5354,
+          "capacity": 600
+        }
+      ],
+      "deficit": 54209.0,
+      "max_delta": 0.0,
+      "identical_mps": true,
+      "mps_sha256": "709aefcb1d06db779e364381fa68cab1b1183d604dc466e7f86779ce6ded0e02"
+    },
+    {
+      "name": "random-10441",
+      "plan": [
+        {
+          "id": 10441,
+          "capacity": 600
+        }
+      ],
+      "deficit": 53812.0,
+      "max_delta": 0.0,
+      "identical_mps": true,
+      "mps_sha256": "73a2b6ba25214a1cc42f8e7a2353b01f16023a6b64efd58c5c171e84507f7398"
+    },
+    {
+      "name": "random-7692",
+      "plan": [
+        {
+          "id": 7692,
+          "capacity": 600
+        }
+      ],
+      "deficit": 54070.0,
+      "max_delta": 0.0,
+      "identical_mps": true,
+      "mps_sha256": "068e17732215334819c4454304acc71fc83ec1e8c33b12fd27f02131428697f5"
+    },
+    {
+      "name": "random-2502",
+      "plan": [
+        {
+          "id": 2502,
+          "capacity": 600
+        }
+      ],
+      "deficit": 54071.0,
+      "max_delta": 0.0,
+      "identical_mps": true,
+      "mps_sha256": "7661886da52605bf517665079fafb5fbb57cf778c297e646ec42ad3c6ca5203e"
+    },
+    {
+      "name": "random-5037",
+      "plan": [
+        {
+          "id": 5037,
+          "capacity": 600
+        }
+      ],
+      "deficit": 54199.0,
+      "max_delta": 0.0,
+      "identical_mps": true,
+      "mps_sha256": "80cd4ca34bb936df07ad4d224aeef7d07c510936fb5a01bea99d1657e01b5dd2"
+    },
+    {
+      "name": "random-3993",
+      "plan": [
+        {
+          "id": 3993,
+          "capacity": 600
+        }
+      ],
+      "deficit": 53609.0,
+      "max_delta": 0.0,
+      "identical_mps": true,
+      "mps_sha256": "fa9f8193813b6d3d052a819607c44675ff15b7541090484571b47feb4266002c"
+    },
+    {
+      "name": "random-12560",
+      "plan": [
+        {
+          "id": 12560,
+          "capacity": 600
+        }
+      ],
+      "deficit": 54157.0,
+      "max_delta": 0.0,
+      "identical_mps": true,
+      "mps_sha256": "e2f5b4953171d2106aefe9f1c5469e595fe676cf90508109b157d2304c342686"
+    },
+    {
+      "name": "random-3083",
+      "plan": [
+        {
+          "id": 3083,
+          "capacity": 600
+        }
+      ],
+      "deficit": 54209.0,
+      "max_delta": 0.0,
+      "identical_mps": true,
+      "mps_sha256": "22ecf6e3574c0fc5b227ef3c26aca69538588bf1565d7d6f7e65779d181d825d"
+    }
+  ],
+  "independence": true,
+  "immutable": true,
+  "ties": true,
+  "per_block_all_columns": true
+}

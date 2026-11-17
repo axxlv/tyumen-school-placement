@@ -1,0 +1,157 @@
+{
+  "kind": "READ_ONLY_ADDITIONAL_SCENARIOS_NOT_SAVED_TO_APPLICATION",
+  "database_written": false,
+  "full_search_started": false,
+  "cases": [
+    {
+      "label": "А*",
+      "plan": [
+        {
+          "id": 9345,
+          "capacity": 1600
+        }
+      ],
+      "summary": {
+        "capacity": 108542.0,
+        "added": 1600.0,
+        "deficit": 52609.0,
+        "reduction": 1600.0,
+        "demand": 146028.0
+      },
+      "fingerprint": "40be9ac1cd0ef63d9ee985d8baa0a83ffe66b6bb4a880fedc080b81c387f87e7",
+      "reference_all_quarters_equal": true,
+      "improved_blocks": 7,
+      "worsened_blocks": 0,
+      "neighbour_net_reduction": 498,
+      "changes": [
+        {
+          "id": 6914,
+          "base_deficit": 26,
+          "deficit": 0,
+          "reduction": 26,
+          "provision": 1.0
+        },
+        {
+          "id": 9179,
+          "base_deficit": 104,
+          "deficit": 0,
+          "reduction": 104,
+          "provision": 1.0
+        },
+        {
+          "id": 9345,
+          "base_deficit": 1102,
+          "deficit": 0,
+          "reduction": 1102,
+          "provision": 1.0
+        },
+        {
+          "id": 9577,
+          "base_deficit": 79,
+          "deficit": 0,
+          "reduction": 79,
+          "provision": 1.0
+        },
+        {
+          "id": 10065,
+          "base_deficit": 198,
+          "deficit": 0,
+          "reduction": 198,
+          "provision": 1.0
+        },
+        {
+          "id": 10133,
+          "base_deficit": 104,
+          "deficit": 85,
+          "reduction": 19,
+          "provision": 0.18269230769230768
+        },
+        {
+          "id": 10376,
+          "base_deficit": 72,
+          "deficit": 0,
+          "reduction": 72,
+          "provision": 1.0
+        }
+      ],
+      "seconds": 14.108601899992209
+    },
+    {
+      "label": "Б*",
+      "plan": [
+        {
+          "id": 9736,
+          "capacity": 1000
+        },
+        {
+          "id": 477,
+          "capacity": 1000
+        }
+      ],
+      "summary": {
+        "capacity": 108942.0,
+        "added": 2000.0,
+        "deficit": 52732.0,
+        "reduction": 1477.0,
+        "demand": 146028.0
+      },
+      "fingerprint": "40be9ac1cd0ef63d9ee985d8baa0a83ffe66b6bb4a880fedc080b81c387f87e7",
+      "reference_all_quarters_equal": true,
+      "improved_blocks": 7,
+      "worsened_blocks": 0,
+      "neighbour_net_reduction": 399,
+      "changes": [
+        {
+          "id": 477,
+          "base_deficit": 473,
+          "deficit": 0,
+          "reduction": 473,
+          "provision": 1.0
+        },
+        {
+          "id": 1589,
+          "base_deficit": 1,
+          "deficit": 0,
+          "reduction": 1,
+          "provision": 1.0
+        },
+        {
+          "id": 5638,
+          "base_deficit": 1,
+          "deficit": 0,
+          "reduction": 1,
+          "provision": 1.0
+        },
+        {
+          "id": 5642,
+          "base_deficit": 2,
+          "deficit": 0,
+          "reduction": 2,
+          "provision": 1.0
+        },
+        {
+          "id": 9733,
+          "base_deficit": 384,
+          "deficit": 0,
+          "reduction": 384,
+          "provision": 1.0
+        },
+        {
+          "id": 9736,
+          "base_deficit": 605,
+          "deficit": 0,
+          "reduction": 605,
+          "provision": 1.0
+        },
+        {
+          "id": 10136,
+          "base_deficit": 303,
+          "deficit": 292,
+          "reduction": 11,
+          "provision": 0.036303630363036306
+        }
+      ],
+      "seconds": 14.656642800022382
+    }
+  ]
+}

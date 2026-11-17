@@ -1,0 +1,16 @@
+{
+  "kind": "ISOLATED_TESTING_FOUR_FAKE_CANDIDATES_NO_PRODUCTION_SEARCH",
+  "tests": 8,
+  "failures": 0,
+  "errors": 0,
+  "success": true,
+  "method": "Real HTTP handlers, SQLite and existing worker; fake engine on four IDs. Notebook executed top-to-bottom against this isolated server.",
+  "production_full_search_started": false,
+  "production_cells_executed": [],
+  "notebook_format_validated": true,
+  "all_code_cells_compiled": true,
+  "delivered_notebook_has_no_test_outputs": true,
+  "production_database_unchanged": true,
+  "engine_and_server_unchanged": true,
+  "notes": "All notebook cells executed against an isolated server with four fake candidates. Eight tests passed. No real full search or production notebook launch cell was executed. Additional ninth test was not run after permission was declined."
+}

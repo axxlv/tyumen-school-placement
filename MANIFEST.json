@@ -1,0 +1,824 @@
+{
+  "date": "2026-11-17",
+  "source_fingerprint": "40be9ac1cd0ef63d9ee985d8baa0a83ffe66b6bb4a880fedc080b81c387f87e7",
+  "full_search_reexecuted": false,
+  "file_count": 162,
+  "files": [
+    {
+      "path": "OPEN_PROJECT.ps1",
+      "size": 1766,
+      "sha256": "6dd063b14706df83f147304b5132cf3654c51cc9e545c3e871c4a2185d308c8c"
+    },
+    {
+      "path": "python-package-boilerplate-updated/.gitignore",
+      "size": 2752,
+      "sha256": "9c8373f02bb3967fc969aca6fe2bc82f1359d86f799b0acf250ce972eed47808"
+    },
+    {
+      "path": "python-package-boilerplate-updated/LICENSE",
+      "size": 1526,
+      "sha256": "1e28e1cd250c53079da892f53b92a19169fa414eeb53934b850095ec7d2e662f"
+    },
+    {
+      "path": "python-package-boilerplate-updated/POPULATION_REPAIR_REPORT.md",
+      "size": 7536,
+      "sha256": "9443ad04e374fae1103b50e57d7f1ec7e45fd90473d2bb5b147b016d9eab6d4e"
+    },
+    {
+      "path": "python-package-boilerplate-updated/README.md",
+      "size": 4160,
+      "sha256": "24196c258ca880a8bce54a1d02adb2ac06eb33055425dc650d2f22d2da942a06"
+    },
+    {
+      "path": "python-package-boilerplate-updated/README_previous.md",
+      "size": 15444,
+      "sha256": "27167d230d3a128bc841e1e9208c8de2dfafb984cae0c58ed17b5fe7e7c60df6"
+    },
+    {
+      "path": "python-package-boilerplate-updated/UPDATE_REPORT.md",
+      "size": 8146,
+      "sha256": "f194ba81854039958e8f2559e61a0d80aa5a0c8f86ad30e7dad3fc941d04788a"
+    },
+    {
+      "path": "python-package-boilerplate-updated/examples/classify_housing.py",
+      "size": 7347,
+      "sha256": "48945261a161eae14426929e20cfe0dfe4a505f0b90caa6d5a1f37a6e041b77b"
+    },
+    {
+      "path": "python-package-boilerplate-updated/examples/data_tyumen/dashboard_refined.html",
+      "size": 22933547,
+      "sha256": "e0567ebf4656076041d18c738d3da5b3ebbc63ebc28c0dc6a54001a7fbdb8745"
+    },
+    {
+      "path": "python-package-boilerplate-updated/examples/data_tyumen/previous_population_version/buildings.geojson",
+      "size": 36568502,
+      "sha256": "0c728c68bf4d680e46ea69b33e2394442d944b486fbc79574bad800ce9f98292"
+    },
+    {
+      "path": "python-package-boilerplate-updated/examples/data_tyumen/previous_school_version/provision_links.csv",
+      "size": 4005,
+      "sha256": "90d248e14edc1b10d2a7ee26ab0fb339f0cb40e1d8dd3a11e01dd3a0ba00c3d8"
+    },
+    {
+      "path": "python-package-boilerplate-updated/examples/data_tyumen/previous_school_version/provision_schools.csv",
+      "size": 333872,
+      "sha256": "8fc3f25bb339594606b3aeec0838e7f782847b9040188d88ab6cb83ec06ebbf4"
+    },
+    {
+      "path": "python-package-boilerplate-updated/examples/data_tyumen/previous_school_version/quality_report.json",
+      "size": 674,
+      "sha256": "9a586bdd4ad79aef5d225f056259730de9f89a82f212dbfe92c236494d0c7709"
+    },
+    {
+      "path": "python-package-boilerplate-updated/examples/data_tyumen/previous_school_version/results_summary.csv",
+      "size": 688,
+      "sha256": "2715c4875456fc3db6b80d30391cd7d5b2181b461c4a5e1ca2b443888c48c282"
+    },
+    {
+      "path": "python-package-boilerplate-updated/examples/data_tyumen/previous_school_version/results_table.csv",
+      "size": 3144891,
+      "sha256": "946b343b3b24b4d78c733fa5ef94f0967b061f41690ee6dac4c528515e9bd888"
+    },
+    {
+      "path": "python-package-boilerplate-updated/examples/data_tyumen/previous_school_version/schools.geojson",
+      "size": 64385,
+      "sha256": "a14b5fcca7a04a673ae0a7e21555aeaaac4aa5bb38ed308c6d1804bb18497621"
+    },
+    {
+      "path": "python-package-boilerplate-updated/examples/data_tyumen/previous_school_version/schools_blocks.geojson",
+      "size": 15079366,
+      "sha256": "daf777589216bb30a8242194181e3dcb3c926c1e667904c437e994517bd73689"
+    },
+    {
+      "path": "python-package-boilerplate-updated/examples/data_tyumen/refined/accessibility_matrix.parquet",
+      "size": 332783645,
+      "sha256": "1f4262bf8b13295adc8d0331f6a7117956eb49666055d6869467608ab6f5ee8d"
+    },
+    {
+      "path": "python-package-boilerplate-updated/examples/data_tyumen/refined/area_accessibility.csv",
+      "size": 317710,
+      "sha256": "e8e2bc76a9933a598bed1ce2900bad85a53f49c2c2dee94dbdca8481a1e531bf"
+    },
+    {
+      "path": "python-package-boilerplate-updated/examples/data_tyumen/refined/blocks.geojson",
+      "size": 13862627,
+      "sha256": "5be6f3259fbfb467dc63fd6c9c4e35c68466d1546a5e07fd11b944cbb73eab59"
+    },
+    {
+      "path": "python-package-boilerplate-updated/examples/data_tyumen/refined/blocks_initial.geojson",
+      "size": 12943968,
+      "sha256": "8f8e390f84a4d50c772421b81b78b06ec8207271ed0584c04a284fb437510d2d"
+    },
+    {
+      "path": "python-package-boilerplate-updated/examples/data_tyumen/refined/blocks_land_use.geojson",
+      "size": 16212414,
+      "sha256": "3ff6ecabc20c80704300f13a7db0d644a1268876ee69f639ada1acb68bf29461"
+    },
+    {
+      "path": "python-package-boilerplate-updated/examples/data_tyumen/refined/blocks_quality.csv",
+      "size": 652235,
+      "sha256": "383af74782a25f16a6cbf5efeccd84640c16eccd8fc7803e13ec6214a8cfb2f0"
+    },
+    {
+      "path": "python-package-boilerplate-updated/examples/data_tyumen/refined/blocks_quality.json",
+      "size": 389,
+      "sha256": "f4eeb843d6000c64e303f0233f19b5d7f6c0034dfaeaad40852d1f75c222ed67"
+    },
+    {
+      "path": "python-package-boilerplate-updated/examples/data_tyumen/refined/blocks_refined.geojson",
+      "size": 13862635,
+      "sha256": "0474ca75fa11141649b1487fc896968ad3b5ab3184632b015d96e0526b938263"
+    },
+    {
+      "path": "python-package-boilerplate-updated/examples/data_tyumen/refined/boundaries.geojson",
+      "size": 31611,
+      "sha256": "5faf988481745d0a74bb4e7bcf9af47b21afc3fcda90f7832aedf5863adf6f4b"
+    },
+    {
+      "path": "python-package-boilerplate-updated/examples/data_tyumen/refined/buildings.geojson",
+      "size": 63981150,
+      "sha256": "b7bf326a9112628bebf954f5e08fd5ebffc542235291bb1052c38bf4d10f5ee1"
+    },
+    {
+      "path": "python-package-boilerplate-updated/examples/data_tyumen/refined/buildings_blocks.geojson",
+      "size": 18963736,
+      "sha256": "d8aaaefaf9fcbee26d117ecf6691ec2c75eba1182e01cb1f3d0a866e9bc8ee59"
+    },
+    {
+      "path": "python-package-boilerplate-updated/examples/data_tyumen/refined/buildings_evidence.geojson",
+      "size": 73728797,
+      "sha256": "960b67671c6137fa821780e50538749c70d8a4d1cd96b745f78b62e79534eaec"
+    },
+    {
+      "path": "python-package-boilerplate-updated/examples/data_tyumen/refined/buildings_raw.geojson",
+      "size": 27445893,
+      "sha256": "55a13520f7e54f0f5cce750353b4c3492668edbaa6061c043c5b60e1ad5c8fdf"
+    },
+    {
+      "path": "python-package-boilerplate-updated/examples/data_tyumen/refined/csv_application_82_schools.png",
+      "size": 228149,
+      "sha256": "9114a0b5e8d760fe4c6e39acd6f1408f2610aa5b5efeca14185393e2214b2838"
+    },
+    {
+      "path": "python-package-boilerplate-updated/examples/data_tyumen/refined/csv_browser_validation.json",
+      "size": 417,
+      "sha256": "8b46d04bc54de8d503b447b2f9295cba8996e21b6c10a99ceefd9632a96be6b8"
+    },
+    {
+      "path": "python-package-boilerplate-updated/examples/data_tyumen/refined/csv_calculation_equivalence.json",
+      "size": 8119,
+      "sha256": "79ba6f205316eef2c4069057076362aa27364596aee30519478bf344386e4aaa"
+    },
+    {
+      "path": "python-package-boilerplate-updated/examples/data_tyumen/refined/csv_practice2_82_schools.png",
+      "size": 182442,
+      "sha256": "518a0dc7899874354d6fd7402e564d25cce5f33d2e76f91dadbdfd46ab31e3be"
+    },
+    {
+      "path": "python-package-boilerplate-updated/examples/data_tyumen/refined/csv_update_checks.json",
+      "size": 892,
+      "sha256": "6ffde747522ca2a2a6fa3f22033136a46f8711c81412c003588b892edabfcb8b"
+    },
+    {
+      "path": "python-package-boilerplate-updated/examples/data_tyumen/refined/density_indicators.csv",
+      "size": 1691464,
+      "sha256": "b3ac0a4b9bb3d74891ea4c83fb45c66c400119d279ddfcb76e9fd4bf84e7c52a"
+    },
+    {
+      "path": "python-package-boilerplate-updated/examples/data_tyumen/refined/functional_zones.geojson",
+      "size": 5870958,
+      "sha256": "c78173dd2c17e36f617852143547144c4cf894bfa39c66ba793e57f011dae88a"
+    },
+    {
+      "path": "python-package-boilerplate-updated/examples/data_tyumen/refined/graph.pkl",
+      "size": 28048406,
+      "sha256": "b095727decc473c08321d433d9808bbf3cdd137f2a7b1bf25c268289eda77223"
+    },
+    {
+      "path": "python-package-boilerplate-updated/examples/data_tyumen/refined/housing_classification_audit.csv",
+      "size": 9922075,
+      "sha256": "c9ec29e8c9db9500a44a22c11043cb2c5100a5ff850e6c77c5179c0aba030e30"
+    },
+    {
+      "path": "python-package-boilerplate-updated/examples/data_tyumen/refined/matrix_input_signature.txt",
+      "size": 32,
+      "sha256": "d00912ba8caa2d74fec17fbe532d56e758e5299b166ff163f61e2f9a4f571ac9"
+    },
+    {
+      "path": "python-package-boilerplate-updated/examples/data_tyumen/refined/matrix_meta.json",
+      "size": 314,
+      "sha256": "9d8be697086a196ab32b4cf83bef75db6278d889b5261ee8bffa911e583bc21e"
+    },
+    {
+      "path": "python-package-boilerplate-updated/examples/data_tyumen/refined/morphotypes_spacematrix.csv",
+      "size": 703825,
+      "sha256": "5a6238623cac2a5a2a6b1769569574e6f078309f4c00f94c87501c3d576f8c39"
+    },
+    {
+      "path": "python-package-boilerplate-updated/examples/data_tyumen/refined/morphotypes_spacematrix_clusters.csv",
+      "size": 1249,
+      "sha256": "099bfeaea2903b65b73a05a2c0e7fc0d52ed601c4cd5e03feb823a04a6d371fb"
+    },
+    {
+      "path": "python-package-boilerplate-updated/examples/data_tyumen/refined/morphotypes_strelka.csv",
+      "size": 584941,
+      "sha256": "4ce7a471b16a3e4cdd8bf93d73bc015a13a9c344a6a95b72979136b4f59f1a60"
+    },
+    {
+      "path": "python-package-boilerplate-updated/examples/data_tyumen/refined/osm_source.json",
+      "size": 481,
+      "sha256": "aa5877d82c42a29fc8e512601fa98a89267224d2ffc36d7254543dba3650049e"
+    },
+    {
+      "path": "python-package-boilerplate-updated/examples/data_tyumen/refined/population_application_82_schools.png",
+      "size": 240609,
+      "sha256": "f9301adfbf122df2207f38738c93511a5c0cd07281db98600dbcf41e76997468"
+    },
+    {
+      "path": "python-package-boilerplate-updated/examples/data_tyumen/refined/population_block_changes.csv",
+      "size": 618604,
+      "sha256": "e0fcfd5ddba882e7aa102d8a199480acf41d256d8a393eacd76594ecd6084859"
+    },
+    {
+      "path": "python-package-boilerplate-updated/examples/data_tyumen/refined/population_browser_validation.json",
+      "size": 516,
+      "sha256": "cff521342de1fed73e751fd9f73660ffd4006406f2d8da1ffd7ae0439a6bd732"
+    },
+    {
+      "path": "python-package-boilerplate-updated/examples/data_tyumen/refined/population_model_validation.json",
+      "size": 4413,
+      "sha256": "8e2b483fe44d6f654ea039f5c2e88c446c40e887d22d6a08e2f4a5e9939d6bc4"
+    },
+    {
+      "path": "python-package-boilerplate-updated/examples/data_tyumen/refined/population_practice2_82_schools.png",
+      "size": 184588,
+      "sha256": "221e07ca316026bf1cb80a67810131fa9a88608112e02fb5d4ff420782281cf6"
+    },
+    {
+      "path": "python-package-boilerplate-updated/examples/data_tyumen/refined/population_repair_report.json",
+      "size": 4517,
+      "sha256": "b8458fa950cfbbdf085432a98b04c720274eb35b56abc832a92142940006dec3"
+    },
+    {
+      "path": "python-package-boilerplate-updated/examples/data_tyumen/refined/provision_links.csv",
+      "size": 27722,
+      "sha256": "5e6e140f0214b21f5835dd628127351b3f5e36523e3f8312017467daf8d31b4d"
+    },
+    {
+      "path": "python-package-boilerplate-updated/examples/data_tyumen/refined/provision_schools.csv",
+      "size": 343282,
+      "sha256": "2329b762282763ed87c813a7522e142178f6bf60ac6b70bd076b4ff9819fbaef"
+    },
+    {
+      "path": "python-package-boilerplate-updated/examples/data_tyumen/refined/quality_report.json",
+      "size": 2618,
+      "sha256": "9eaff0da0d6526fb05f7f3d30f60641f23ec6d9bdc465a691cb751f7877cd928"
+    },
+    {
+      "path": "python-package-boilerplate-updated/examples/data_tyumen/refined/railways.geojson",
+      "size": 515452,
+      "sha256": "ec399a1d40681057d2762c404736a6e935b2c52fe8883d7260575b03de73f36b"
+    },
+    {
+      "path": "python-package-boilerplate-updated/examples/data_tyumen/refined/results_blocks.geojson",
+      "size": 24915011,
+      "sha256": "07d65c30a59ff4c58f40a042e9c55de88c740be4c67e6d20ee61addee442b45f"
+    },
+    {
+      "path": "python-package-boilerplate-updated/examples/data_tyumen/refined/results_summary.csv",
+      "size": 697,
+      "sha256": "060fe95eb35d61c761d358cac212f1f08b52a8f7678827f1d89f024b2a2c2c5f"
+    },
+    {
+      "path": "python-package-boilerplate-updated/examples/data_tyumen/refined/results_table.csv",
+      "size": 3653141,
+      "sha256": "d13efb1e2dd425e3f65d7ec1a557cc7fce532696f758dda83afeb575440482f4"
+    },
+    {
+      "path": "python-package-boilerplate-updated/examples/data_tyumen/refined/roads.geojson",
+      "size": 11070859,
+      "sha256": "ac9c855d1bf7c45433e121b2021a6688d77ef5e897a298707f1f83249f6ebaff"
+    },
+    {
+      "path": "python-package-boilerplate-updated/examples/data_tyumen/refined/schools.geojson",
+      "size": 177812,
+      "sha256": "4e807b6dcbb6a43596797cdad6ed180231375562e80e94a430be9c71b1e47d8f"
+    },
+    {
+      "path": "python-package-boilerplate-updated/examples/data_tyumen/refined/schools_blocks.geojson",
+      "size": 14413464,
+      "sha256": "aad4f2cb60aa06e59e13284feddad90611eedc16fdb6334b4f5f05f1cec1daaa"
+    },
+    {
+      "path": "python-package-boilerplate-updated/examples/data_tyumen/refined/schools_csv_validation.json",
+      "size": 1586,
+      "sha256": "46ee143b09e90bfe67f7c94156be71a7d4c060f5ab55b3e9e8d98ca6bad93619"
+    },
+    {
+      "path": "python-package-boilerplate-updated/examples/data_tyumen/refined/schools_import_audit.csv",
+      "size": 20537,
+      "sha256": "c4db9590254bec8183e0c991d63d6761141abf261a0b4e4e1143e2555ff61e82"
+    },
+    {
+      "path": "python-package-boilerplate-updated/examples/data_tyumen/refined/split_meta.json",
+      "size": 461,
+      "sha256": "e778fad8b352af142d1c761140ea0a86ab2bafec12482994a47f49ded1d30e55"
+    },
+    {
+      "path": "python-package-boilerplate-updated/examples/data_tyumen/refined/tyumen_refined.osm.pbf",
+      "size": 10826301,
+      "sha256": "ed1383dfc429113bc859bea340d2b602bbbb601531160422fb8f4aae3baec23f"
+    },
+    {
+      "path": "python-package-boilerplate-updated/examples/data_tyumen/refined/tyumen_schools_82.csv",
+      "size": 71350,
+      "sha256": "e82b26c871c0cd5b149354e2cc232c5b9ac7cd69d0da5fd4d1ad41c5abc2932b"
+    },
+    {
+      "path": "python-package-boilerplate-updated/examples/data_tyumen/refined/water.geojson",
+      "size": 3192078,
+      "sha256": "ff420baf7e2d73605b486a3bb9e83300554e13c7652bc979f3778822916ac863"
+    },
+    {
+      "path": "python-package-boilerplate-updated/examples/my_example.ipynb",
+      "size": 1764,
+      "sha256": "43fdfc921c6a96fd16352a47770d4f2425d1adaf51fbb4910b0063d767a0888b"
+    },
+    {
+      "path": "python-package-boilerplate-updated/examples/recalculate_population.py",
+      "size": 13035,
+      "sha256": "1d64d40f4d19b216b7e52d467d77a0bde27727764ce09ef1a3032b5dddf334b5"
+    },
+    {
+      "path": "python-package-boilerplate-updated/examples/tyumen_dashboard.py",
+      "size": 53412,
+      "sha256": "b94ca2be4f835ddeba972ff6f566c3857acb3bb648864ae8ad6143e07b0daa9e"
+    },
+    {
+      "path": "python-package-boilerplate-updated/examples/tyumen_dashboard_final.py",
+      "size": 50056,
+      "sha256": "6712d2f1134d47ff195f93d5d07dd144143709952abf6765edb2492210b52ac1"
+    },
+    {
+      "path": "python-package-boilerplate-updated/examples/tyumen_dashboard_refined.py",
+      "size": 165056,
+      "sha256": "cf505dadfbf844216ab9f23c9049398455f002ab08b546e5ec368577ff5b45e4"
+    },
+    {
+      "path": "python-package-boilerplate-updated/examples/tyumen_final_maps.ipynb",
+      "size": 1749886,
+      "sha256": "3bb33735bc6b57b54c8df33c69d4cde0660f93b26376b9989633f76b593eb3b7"
+    },
+    {
+      "path": "python-package-boilerplate-updated/examples/tyumen_pipeline.ipynb",
+      "size": 324441,
+      "sha256": "83405c86f7737ab0bd40bed9c5e2ebf97e0f2b4c256731bd6d0ae81cb6ebbe13"
+    },
+    {
+      "path": "python-package-boilerplate-updated/examples/tyumen_pipeline_original.ipynb",
+      "size": 3100298,
+      "sha256": "5c9a748eb68848411874e074f66b0da2424a57385e1c50f5d66e67e3928567e1"
+    },
+    {
+      "path": "python-package-boilerplate-updated/examples/tyumen_pipeline_pbf.ipynb",
+      "size": 3148225,
+      "sha256": "59d439b0fd1119e2ef683c2b1619deed12063581d8a781fbf5e9bfd398358cf5"
+    },
+    {
+      "path": "python-package-boilerplate-updated/examples/tyumen_pipeline_refined.ipynb",
+      "size": 726966,
+      "sha256": "33df0a0efb9ba28597a9cab5b19263642a81ea21db71033b8bce38a0297f9245"
+    },
+    {
+      "path": "python-package-boilerplate-updated/examples/tyumen_pipeline_refined_continue.ipynb",
+      "size": 156994,
+      "sha256": "1ebac2a82a634f31c9b5d15ed5ef2435b375fc3458d7df9e5bc8c3ff24bc4134"
+    },
+    {
+      "path": "python-package-boilerplate-updated/examples/tyumen_pipeline_refined_previous.ipynb",
+      "size": 155334,
+      "sha256": "fabbd476c78853f1776ef96d234a87871d9a64549eb9701638b58b89f935f116"
+    },
+    {
+      "path": "python-package-boilerplate-updated/examples/tyumen_school_update_previous.ipynb",
+      "size": 8842,
+      "sha256": "995e8ab11d4d9a00a7150a6fcc0922fbe9daa229f9f91c0409d74feac9ca5820"
+    },
+    {
+      "path": "python-package-boilerplate-updated/examples/update_schools_csv.py",
+      "size": 12520,
+      "sha256": "f28bf9db0834d98d57f6505f9542c7256359aaa5badb63fdbf506e71dcd1f389"
+    },
+    {
+      "path": "python-package-boilerplate-updated/examples/vyborg_pipeline.ipynb",
+      "size": 2417344,
+      "sha256": "40266507e36610f5f10aee230d71344897e81d7e832dee09b4d7c5c44dfd0b11"
+    },
+    {
+      "path": "python-package-boilerplate-updated/my_package/__init__.py",
+      "size": 542,
+      "sha256": "474c18e420aacf950fc06cabfcb5209239a6b78b8f092a44d3ada0961c338b5c"
+    },
+    {
+      "path": "python-package-boilerplate-updated/my_package/my_module.py",
+      "size": 847,
+      "sha256": "84ae792331c63901e56dd92fcfb2d7d74e070bb71cad4786b97a0f0f7410dd03"
+    },
+    {
+      "path": "python-package-boilerplate-updated/pyproject.toml",
+      "size": 4003,
+      "sha256": "2ce41a4f92a7da6d579cc0eb4c98942c745904093933c07bf0fac1caa2e691a2"
+    },
+    {
+      "path": "python-package-boilerplate-updated/requirements-lock.txt",
+      "size": 3815,
+      "sha256": "4f478823f8206eda0282f2c0128b2ed31f5ae87dda9ae47ecd7f2cbeb611cb8a"
+    },
+    {
+      "path": "python-package-boilerplate-updated/tests/test_1.py",
+      "size": 261,
+      "sha256": "c868936350c44c9c5f7d70079be8ef8f3d4589dce8d9d32f4246bf7fa131b2c4"
+    },
+    {
+      "path": "python-package-boilerplate-updated/tests/test_schools_csv.py",
+      "size": 5418,
+      "sha256": "9038c2327a92566c6c531e86d190a6f1cc05c5b8dcc21d4bd033fc2e81a7b54b"
+    },
+    {
+      "path": "school-placement/.gitignore",
+      "size": 29,
+      "sha256": "6c6ffcacf0f502cc6a1bd332e753d415ecb8ed0d9a042e1970ac9e85e1b53619"
+    },
+    {
+      "path": "school-placement/README.md",
+      "size": 8546,
+      "sha256": "e0be7072493752a556b6905b6a20528fbe893c7b502ecf664fdb5ae31bd712aa"
+    },
+    {
+      "path": "school-placement/benchmark_optimization.py",
+      "size": 5524,
+      "sha256": "f1dfc7fb906b87dd2cb89400d5abd8d39b4529dfa253208964dd051bbee11734"
+    },
+    {
+      "path": "school-placement/engine.py",
+      "size": 15959,
+      "sha256": "141791e3119e70eb3eda74d9dd215b2fbbadcceffe680f9c4f2e276eb10c56da"
+    },
+    {
+      "path": "school-placement/engine_before.py",
+      "size": 8739,
+      "sha256": "d9da4faa9918f359b2819db2e4f1abc736542dbd862df7cf6db94dbcf13814a3"
+    },
+    {
+      "path": "school-placement/experiment_results.ipynb",
+      "size": 1477618,
+      "sha256": "3e64e42ec2d7fa992e34dbe2122b6a1d709cdc7c436033a98b6ddb9452fcb8a4"
+    },
+    {
+      "path": "school-placement/full_school_search.ipynb",
+      "size": 12545,
+      "sha256": "84d8d44a693a97e2975ee911d6d83f0f36e4bd7a76b5e3763888acb8515b6767"
+    },
+    {
+      "path": "school-placement/inspect_baseline.py",
+      "size": 1942,
+      "sha256": "1e509497cd5bcd5cd18069ae9358c865bc6eea6061ce3db7465d927f016794c3"
+    },
+    {
+      "path": "school-placement/notebook_search.py",
+      "size": 16647,
+      "sha256": "8a6ee3396439fe32d1adad8eba73e359ef22d5ed0986026ecc96f48a24bc23a2"
+    },
+    {
+      "path": "school-placement/requirements-lock.txt",
+      "size": 3815,
+      "sha256": "4f478823f8206eda0282f2c0128b2ed31f5ae87dda9ae47ecd7f2cbeb611cb8a"
+    },
+    {
+      "path": "school-placement/requirements.txt",
+      "size": 112,
+      "sha256": "efb7cb7e2aeb26420a304b929b4386bfa01f58faca26f01c01a590a773ca8d79"
+    },
+    {
+      "path": "school-placement/run_validation_and_benchmark.py",
+      "size": 330,
+      "sha256": "61fd8063974b12ebca7de595d09d8bbd7f0e101e480fbd604d9e460bfb4cdd3b"
+    },
+    {
+      "path": "school-placement/server.py",
+      "size": 17731,
+      "sha256": "0fd0efd638afa46d12ea6369b9840339cad4fe2e42c42faaf3e204bf615780ce"
+    },
+    {
+      "path": "school-placement/start.ps1",
+      "size": 416,
+      "sha256": "2613d9e5bcd74c75e91b76ab3a556330f676c435399b417647d68ab695944ade"
+    },
+    {
+      "path": "school-placement/state/CSV_UPDATE_REPORT.md",
+      "size": 8146,
+      "sha256": "f194ba81854039958e8f2559e61a0d80aa5a0c8f86ad30e7dad3fc941d04788a"
+    },
+    {
+      "path": "school-placement/state/PRE_SEARCH_CHECKS.md",
+      "size": 5441,
+      "sha256": "95d7f3980382fae4fa3b9471348da681375254807355c1c291c6ed71ff1d3063"
+    },
+    {
+      "path": "school-placement/state/application.sqlite",
+      "size": 49111040,
+      "sha256": "30c753ab1c4eb4b390f09a8e2c415a2d2ad801e90463574c3ab6e9c55bf3518a"
+    },
+    {
+      "path": "school-placement/state/approved_ab_browser_checks.json",
+      "size": 4979,
+      "sha256": "4c6716e3154b11e53ca865f1e43a3bb19433a8de74fdd0a4f49959b30b898e96"
+    },
+    {
+      "path": "school-placement/state/approved_ab_model_checks.json",
+      "size": 1476,
+      "sha256": "7860e6364cea4eecef1256f4f1ad7c22f1b0970a605034b39672ea9e10cc49a6"
+    },
+    {
+      "path": "school-placement/state/baseline_validation.json",
+      "size": 2356,
+      "sha256": "cc40e3dd1262fca254b84b69b0aebd9086e3e9df68010e578e66bd8a1fd8699c"
+    },
+    {
+      "path": "school-placement/state/browser_validation.json",
+      "size": 549,
+      "sha256": "f189d9cd9156c959b9107f3c9b9ef926ba0786c2311c7483f2365d7bb7007646"
+    },
+    {
+      "path": "school-placement/state/csv_browser_validation.json",
+      "size": 417,
+      "sha256": "8b46d04bc54de8d503b447b2f9295cba8996e21b6c10a99ceefd9632a96be6b8"
+    },
+    {
+      "path": "school-placement/state/experiment-results/EXPERIMENT_REPORT.md",
+      "size": 12162,
+      "sha256": "dea7136e0382caaa5195479f0051cbe5fadd4951f36ad433420d07448fb28fde"
+    },
+    {
+      "path": "school-placement/state/experiment-results/additional/A-star.csv",
+      "size": 845470,
+      "sha256": "b542b020f7362bcded7475a31654f575f6b492f57457fa62ee6e807aa068016b"
+    },
+    {
+      "path": "school-placement/state/experiment-results/additional/A-star.json",
+      "size": 5957290,
+      "sha256": "9ab7139accd5716e3df40768445b1f815dac8f2249ca8de2d652e766164d248c"
+    },
+    {
+      "path": "school-placement/state/experiment-results/additional/ADDITIONAL_SCENARIOS.md",
+      "size": 1655,
+      "sha256": "e3eea5978898efb83325dc75dce4b26e22554c3ee261c3fdce547c3fcfc0856f"
+    },
+    {
+      "path": "school-placement/state/experiment-results/additional/B-star.csv",
+      "size": 845490,
+      "sha256": "3ddf93dc0bfd9883fa0e2881e469a96d13310a149d8f373d7201acc9dce3bc12"
+    },
+    {
+      "path": "school-placement/state/experiment-results/additional/B-star.json",
+      "size": 5957358,
+      "sha256": "21f5d1f8dc0a5b6bfa95b6e1fc07365c5d411c7a89e112415c46e41859e6ada7"
+    },
+    {
+      "path": "school-placement/state/experiment-results/additional/comparison.csv",
+      "size": 215,
+      "sha256": "c0ee238b28c3f97d2cf80dec6aec23452a719048f14deb881851c205751286a2"
+    },
+    {
+      "path": "school-placement/state/experiment-results/additional/verification.json",
+      "size": 3709,
+      "sha256": "51ac4c5da11ccdc1f788b3649f9d7fd7d532e6ad69cb151d174368133d29447a"
+    },
+    {
+      "path": "school-placement/state/experiment-results/application-V.png",
+      "size": 158153,
+      "sha256": "8efd9fc862e1f8a74fda8366350c7fa1bf06f8fcf2efc90331795a9ddbb47cda"
+    },
+    {
+      "path": "school-placement/state/experiment-results/baseline.csv",
+      "size": 845466,
+      "sha256": "e7f2b3deb46f9ad5fa9b31c420930be4edd85b6d522e730dec6267269f206a26"
+    },
+    {
+      "path": "school-placement/state/experiment-results/browser-validation.json",
+      "size": 1104,
+      "sha256": "cb21b91ebc2e83b047d0b2f3bd363623d00ac462804301ed3ba166855315a0da"
+    },
+    {
+      "path": "school-placement/state/experiment-results/comparison.csv",
+      "size": 298,
+      "sha256": "b45213c1c141722fde6d35730a223e59f757801eaa61c572bf95bbf01edcdbdf"
+    },
+    {
+      "path": "school-placement/state/experiment-results/equal-best.csv",
+      "size": 116466,
+      "sha256": "8bb81c84e50aa23610266f033361f53ea86bf29255503c4704988ca921c16321"
+    },
+    {
+      "path": "school-placement/state/experiment-results/experiment-validation.json",
+      "size": 8844,
+      "sha256": "9e4a8ffe023ebe0a68921e4f98d537c2f76ce0e258e274e7764c02ec3cb78016"
+    },
+    {
+      "path": "school-placement/state/experiment-results/ranking-all-12805.csv",
+      "size": 511407,
+      "sha256": "820732c953ed1d8b6b32325fb514ccd9f88399d20c75a53b07b7fa57caa04e72"
+    },
+    {
+      "path": "school-placement/state/experiment-results/remaining-deficit.json",
+      "size": 1187,
+      "sha256": "d57c0430c4fecb6173f01a9c7adc9ca5d11b47f6d87529307aee1648e11405a8"
+    },
+    {
+      "path": "school-placement/state/experiment-results/scenario-changes.png",
+      "size": 572383,
+      "sha256": "9a9d7131a02b613fb42a46631760d2ae5f145b320d4d46dcc20ee84be6f58c44"
+    },
+    {
+      "path": "school-placement/state/experiment-results/scenario-locations.png",
+      "size": 522674,
+      "sha256": "0b2482f14388aeb6dcd42ceaeadee610a6fc7b2075ad17c9c26f3d40fef6dde3"
+    },
+    {
+      "path": "school-placement/state/experiment-results/scenario-А.csv",
+      "size": 845484,
+      "sha256": "5df5084e5fb1987bb1332ca4ffe1e9302f8f0628fe753889c1b3402a7e8df854"
+    },
+    {
+      "path": "school-placement/state/experiment-results/scenario-Б.csv",
+      "size": 845505,
+      "sha256": "fe3d8e6917282b00c65fdad8441579283604cbd0ce96241624ce03a655fd11a6"
+    },
+    {
+      "path": "school-placement/state/experiment-results/scenario-В.csv",
+      "size": 845483,
+      "sha256": "5031c2fa8d2a84388b71f7fce074b95ff28b57192623632bd1b7ec68b9ab316f"
+    },
+    {
+      "path": "school-placement/state/interface_desktop.png",
+      "size": 374305,
+      "sha256": "fe654bf6ea0c691be02ce31bb15a8a7446189f318f4394ae78815e1477e80302"
+    },
+    {
+      "path": "school-placement/state/interface_mobile.png",
+      "size": 247578,
+      "sha256": "895e53fb5fe595c65ceef6133dcee73cecc0856dfa7f0a6948e8f133d099a3bd"
+    },
+    {
+      "path": "school-placement/state/notebook_validation.json",
+      "size": 834,
+      "sha256": "89b510f6cb6654a90404076dfc8f03c4d77fb9d0123bffd11a42fe7332a0db99"
+    },
+    {
+      "path": "school-placement/state/optimization_benchmark.json",
+      "size": 12484,
+      "sha256": "375dab14451a17ceeca05ddb49af0f08c8416f7bde9a96526179e0bf424a3dd4"
+    },
+    {
+      "path": "school-placement/state/optimization_browser_validation.json",
+      "size": 549,
+      "sha256": "f189d9cd9156c959b9107f3c9b9ef926ba0786c2311c7483f2365d7bb7007646"
+    },
+    {
+      "path": "school-placement/state/optimization_equivalence.json",
+      "size": 8496,
+      "sha256": "eca78b0eae8ef923ff79a973c7c7dac922bfdabebdedf50f50b84de4fb1ca833"
+    },
+    {
+      "path": "school-placement/state/optimization_interface_desktop.png",
+      "size": 370866,
+      "sha256": "775f2b1a5e6b586f9705cf1548dd04ffbac4976fbf18fd30af72a90d15231508"
+    },
+    {
+      "path": "school-placement/state/optimization_interface_mobile.png",
+      "size": 245623,
+      "sha256": "ac38560c2bab0cf29ee9f09933fdc27e103a810c82ec9563b2b80c38854ea8be"
+    },
+    {
+      "path": "school-placement/state/optimization_report.md",
+      "size": 10409,
+      "sha256": "b80b858d77461a72a1d9363b29162c7340433c72707cfb3dd6b17ebacec88826"
+    },
+    {
+      "path": "school-placement/state/optimization_unit_tests.json",
+      "size": 192,
+      "sha256": "d215a42ce12a8ac7bea976888fc1508c1eec76fbe929681a8a1934757189dfce"
+    },
+    {
+      "path": "school-placement/state/practice-03_verified.html",
+      "size": 60694,
+      "sha256": "dc1fc56e49add42991bf438d1085b937227a9daae6b5fbd9d7bee98bad2f9d92"
+    },
+    {
+      "path": "school-placement/state/scenario_opening_validation.json",
+      "size": 969,
+      "sha256": "39ef54653414621714c89cdab6bd65e09c2e9209b54834ba9809e4446741c92f"
+    },
+    {
+      "path": "school-placement/state/scenario_validation.json",
+      "size": 537,
+      "sha256": "bd060ad25a45fc5e9f0c4147443866d300d5c20f4c0151be8088335302de0b3c"
+    },
+    {
+      "path": "school-placement/state/verification.md",
+      "size": 2808,
+      "sha256": "3cc50d373ef8cb3b33215a78e03e46ecdc1b7462754136f9b256cac9f3bbdddf"
+    },
+    {
+      "path": "school-placement/test_application.py",
+      "size": 10333,
+      "sha256": "cab5041f80aaa1b2cc74baaff3cc401e39d385397eb3c6168894be1074e03dc7"
+    },
+    {
+      "path": "school-placement/validate_optimization.py",
+      "size": 3828,
+      "sha256": "74196ea0525f5d97d41aa6b03866d5fa27f0e4f3dcb5d6358267a68cdbfeaf96"
+    },
+    {
+      "path": "school-placement/web/app.js",
+      "size": 24724,
+      "sha256": "f46a2273348d081e2de6299dd0b25ea17188037187b1b329d6511bf1955ac6a9"
+    },
+    {
+      "path": "school-placement/web/index.html",
+      "size": 12602,
+      "sha256": "223279c70d573265b1ac931ae9dc94611dfc849f214bbac056ae10478f25ada5"
+    },
+    {
+      "path": "school-placement/web/style.css",
+      "size": 4296,
+      "sha256": "84e0f5a97347e2d5a0c6cb0f0d58667015cd5155d708370a2186d963ea12ca8c"
+    },
+    {
+      "path": "submission/READ_ME_FIRST.md",
+      "size": 4738,
+      "sha256": "09d3d296701e317fc2d37ab51d78d6ea197e2cd8e007bc86ba1b213acc0f8afd"
+    },
+    {
+      "path": "submission/REQUIREMENTS_REVIEW.md",
+      "size": 11387,
+      "sha256": "67dc22a85288a8ab42f31a8b31c3d015760d60cb1574f2c8689a6474b0e20672"
+    },
+    {
+      "path": "submission/SUBMISSION_CHECKLIST.md",
+      "size": 10827,
+      "sha256": "5ff24e3c3dd4bf36b9f130bcc42ea1d64cfcc0d52839c4ce7f99994e6a96cf60"
+    },
+    {
+      "path": "submission/VIDEO_GUIDE.md",
+      "size": 14034,
+      "sha256": "632e32176185cf1a3d8868663d763e77a77b90eb338fd39e51153b53bf2c666c"
+    },
+    {
+      "path": "submission/dashboard-review.json",
+      "size": 2158,
+      "sha256": "7edf7bb67941c128e1d05bb8134112edcfe260ef89ef6bc2530c6405084e1e00"
+    },
+    {
+      "path": "submission/environment.json",
+      "size": 5773,
+      "sha256": "16f3047ab61e2b6af03b4f5af4d441ba7a7cad7a591c6c9dde7062ff14c5092a"
+    },
+    {
+      "path": "submission/practice2-fsi.png",
+      "size": 235215,
+      "sha256": "ccdbf738475754d878c3171ac4d81bc86a17e59388f3045c1e627e54e19b10ff"
+    },
+    {
+      "path": "submission/practice2-mobile.png",
+      "size": 205086,
+      "sha256": "5bae8b6851198ae26a248d50800522b6d880f8bcfe717acbcb4789c6f553f5ce"
+    },
+    {
+      "path": "submission/practice2-population.png",
+      "size": 233132,
+      "sha256": "f798a8a37f5589317c1d0528fb79049b3134efc02fb5cb821284396aa3c42681"
+    },
+    {
+      "path": "submission/practice2-provision_strong.png",
+      "size": 231797,
+      "sha256": "11283654451db0e114c2ff23eb7842420a83daa11421aa13fffb42fe319ecbdf"
+    },
+    {
+      "path": "submission/practice3-V.png",
+      "size": 158841,
+      "sha256": "f5333a85f2226f6cbc9457a4aa926d5bad1c361dfae2b2fa8a7dfef51f31a65e"
+    },
+    {
+      "path": "submission/requirements-lock.txt",
+      "size": 3815,
+      "sha256": "4f478823f8206eda0282f2c0128b2ed31f5ae87dda9ae47ecd7f2cbeb611cb8a"
+    }
+  ],
+  "excluded_from_github_archive": [
+    "python-package-boilerplate-updated/examples/data_tyumen/refined/accessibility_matrix.parquet",
+    "school-placement/state/application.sqlite"
+  ],
+  "database_snapshot": "SQLite backup API; 5 scenarios and full search, 12805 ranking rows",
+  "caveat": "Historical walking graph built from local OSM rather than downloaded ready graph; see REQUIREMENTS_REVIEW.md"
+}

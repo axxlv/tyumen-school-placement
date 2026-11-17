@@ -1,0 +1,54 @@
+{
+  "count": 12805,
+  "population": 1197166.0,
+  "version": "1.0.0a9",
+  "norm": 120,
+  "accessibility": 15,
+  "seconds": 0.3616368447916708,
+  "reference_seconds": 4.5337223000242375,
+  "max_deltas": {
+    "demand": 0.0,
+    "capacity": 0.0,
+    "demand_left": 0.0,
+    "demand_within": 0.0,
+    "demand_without": 0.0,
+    "capacity_left": 0.0,
+    "capacity_within": 0.0,
+    "capacity_without": 0.0,
+    "provision_strong": 1.1102230246251565e-16,
+    "provision_weak": 1.1102230246251565e-16
+  },
+  "fingerprint": "40be9ac1cd0ef63d9ee985d8baa0a83ffe66b6bb4a880fedc080b81c387f87e7",
+  "source": "D:\\Рабочий стол\\ITMO AI\\python-package-boilerplate-updated\\examples\\data_tyumen\\refined",
+  "tolerance": 1e-07,
+  "method": "blocksnet-1.0.0a9-array-cbc-v2",
+  "source_hashes": {
+    "buildings_blocks.geojson": "d8aaaefaf9fcbee26d117ecf6691ec2c75eba1182e01cb1f3d0a866e9bc8ee59",
+    "schools_blocks.geojson": "aad4f2cb60aa06e59e13284feddad90611eedc16fdb6334b4f5f05f1cec1daaa",
+    "blocks_refined.geojson": "0474ca75fa11141649b1487fc896968ad3b5ab3184632b015d96e0526b938263",
+    "accessibility_matrix.parquet": "1f4262bf8b13295adc8d0331f6a7117956eb49666055d6869467608ab6f5ee8d",
+    "provision_schools.csv": "2329b762282763ed87c813a7522e142178f6bf60ac6b70bd076b4ff9819fbaef",
+    "schools.geojson": "4e807b6dcbb6a43596797cdad6ed180231375562e80e94a430be9c71b1e47d8f",
+    "tyumen_schools_82.csv": "e82b26c871c0cd5b149354e2cc232c5b9ac7cd69d0da5fd4d1ad41c5abc2932b",
+    "population_repair_report.json": "b8458fa950cfbbdf085432a98b04c720274eb35b56abc832a92142940006dec3"
+  },
+  "population_inference": {
+    "osm_residential": 22116,
+    "unresolved": 13993,
+    "inferred_private_address": 8815,
+    "non_residential": 6673,
+    "inferred_private_context": 4370,
+    "inferred_multistorey": 746,
+    "osm_flats": 1
+  },
+  "population_unresolved_blocks": 1507,
+  "school_count": 82,
+  "school_source": "tyumen_schools_82.csv",
+  "capacity_note": "Оценочная вместимость; разные методы из CSV, не единый реестр проектных мощностей",
+  "benchmark": {
+    "count": 96,
+    "estimated_minutes": 77.17932995928908,
+    "conservative_minutes": 96.47416244911135,
+    "kind": "LIMITED_TESTING_NOT_FULL_SEARCH_NOT_USER_CHOICES"
+  }
+}

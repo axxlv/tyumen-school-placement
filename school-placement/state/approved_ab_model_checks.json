@@ -1,0 +1,65 @@
+{
+  "kind": "TEST_ONLY_APPROVED_AB_NO_FULL_SEARCH",
+  "fingerprint": "40be9ac1cd0ef63d9ee985d8baa0a83ffe66b6bb4a880fedc080b81c387f87e7",
+  "cases": [
+    {
+      "label": "А",
+      "plan": [
+        {
+          "id": 9345,
+          "capacity": 600
+        }
+      ],
+      "summary": {
+        "capacity": 107542.0,
+        "added": 600.0,
+        "deficit": 53609.0,
+        "reduction": 600.0,
+        "demand": 146028.0
+      },
+      "per_block_reference_equal": true,
+      "capacity_correct": true,
+      "csv_consistent": true,
+      "improved_blocks": 1,
+      "worsened_blocks": 0,
+      "improvements": {
+        "9345": 600.0
+      },
+      "worsenings": {}
+    },
+    {
+      "label": "Б",
+      "plan": [
+        {
+          "id": 9736,
+          "capacity": 300
+        },
+        {
+          "id": 477,
+          "capacity": 300
+        }
+      ],
+      "summary": {
+        "capacity": 107542.0,
+        "added": 600.0,
+        "deficit": 53609.0,
+        "reduction": 600.0,
+        "demand": 146028.0
+      },
+      "per_block_reference_equal": true,
+      "capacity_correct": true,
+      "csv_consistent": true,
+      "improved_blocks": 2,
+      "worsened_blocks": 0,
+      "improvements": {
+        "477": 300.0,
+        "9736": 300.0
+      },
+      "worsenings": {}
+    }
+  ],
+  "independent": true,
+  "reset_verified": true,
+  "source_files_unchanged": true,
+  "search_started": false
+}

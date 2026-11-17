@@ -1,0 +1,2 @@
+# Preserve exact calculation-input and engine hashes across checkout.
+* -text

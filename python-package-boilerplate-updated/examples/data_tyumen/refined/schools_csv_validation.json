@@ -1,0 +1,43 @@
+{
+  "checks": {
+    "csv_82_rows": true,
+    "csv_ids_unique": true,
+    "positive_integer_capacity": true,
+    "all_points_inside_territory": true,
+    "all_points_exactly_one_block": true,
+    "coordinates_preserved": true,
+    "no_legacy_points_appended": true,
+    "school_count_conserved": true,
+    "capacity_sum_conserved": true,
+    "capacity_reaches_solver": true,
+    "zero_capacity_changes_result": true,
+    "matrix_ids_match": true,
+    "unrelated_result_columns_unchanged": true
+  },
+  "rows": 82,
+  "capacity": 106942,
+  "matrix_shape": [
+    12805,
+    12805
+  ],
+  "csv_sha256": "e82b26c871c0cd5b149354e2cc232c5b9ac7cd69d0da5fd4d1ad41c5abc2932b",
+  "method": {
+    "blocksnet": "1.0.0a9",
+    "demand": 120,
+    "accessibility": 15,
+    "self_supply": true,
+    "max_depth": 1
+  },
+  "capacity_methods": {
+    "Деление": 37,
+    "Медиана": 17,
+    "Факт": 14,
+    "Оценка": 7,
+    "Проект": 6,
+    "Проектная вместимость (не фактическая численность)": 1
+  },
+  "warnings": [
+    "Исходные оценки вместимости смешивают проектные места, численность учащихся и расчётные распределения. Значения сохранены без переоценки.",
+    "Ссылки, даты и достоверность приняты из переданного CSV; повторная внешняя проверка источников не проводилась."
+  ]
+}
