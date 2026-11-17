@@ -115,7 +115,7 @@ python .\python-package-boilerplate-updated\examples\tyumen_dashboard_refined.py
 
 ## Крупные файлы
 
-Матрица Parquet (332 783 645 байт) и SQLite-база с завершённым поиском передаются в полном архиве `COMPLETE_PROJECT_WITH_DATA.zip`. Архив загружается в [Releases этого репозитория](https://github.com/axxlv/tyumen-school-placement/releases); после проверки загрузки здесь будет прямая ссылка на скачивание.
+Матрица Parquet (332 783 645 байт), SQLite-база с пятью сценариями, результаты завершённого поиска и необходимые исходные данные находятся в [полном проверенном комплекте — скачать ZIP](https://github.com/axxlv/tyumen-school-placement/releases/download/v1.0/COMPLETE_PROJECT_WITH_DATA.zip). Архив опубликован в [релизе v1.0](https://github.com/axxlv/tyumen-school-placement/releases/tag/v1.0). Размер: 464505538 байт. Распакуйте его с сохранением структуры папок; порядок запуска — `submission/READ_ME_FIRST.md`. В обычном клоне Git эти крупные данные отсутствуют.
 
 Содержимое полного архива распаковывается с сохранением структуры папок. Среда Python в архив не копируется. Чистая установка на другом компьютере не проверялась; иная ОС, версии пакетов или бинарник CBC могут изменить подпись совместимости, тогда прежние сценарии будут архивными. Сохранённые CSV/HTML/карты остаются доступными.
 
